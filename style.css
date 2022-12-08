@@ -1,0 +1,90 @@
+* {
+  padding: 2;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #34ace0;
+}
+
+.wrapper {
+  max-width: 90vh;
+  margin-top: 80px;
+  background-color: #33d9b2;
+  width: 350px;
+  height: 280px;
+}
+.wrapper .input1,
+.wrapper .input2 {
+  padding-left: 15px;
+  text-align: center;
+  padding: 20px 30px;
+  width: 80px;
+  font-size: 30px;
+  box-shadow: 1px 1px 0px #999, 2px 2px 0px #999, 3px 3px 0px #999, 4px 4px 0px #999, 5px 5px 0px #999, 6px 6px 0px #999;
+  margin-left: 20px;
+}
+.wrapper .spanCl {
+  font-size: 60px;
+  margin-left: 20px;
+  font-weight: bold;
+}
+.wrapper .inputAnswer {
+  margin: 30px 0;
+  padding: 5 0;
+  font-size: 30px;
+  text-align: center;
+  width: 180px;
+}
+.wrapper .btn {
+  cursor: pointer;
+  padding: 10px 50px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  color: #fff;
+  border: none;
+  background-color: #079992;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.wrapper .flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.wrapper .dbInput {
+  margin-left: 35px;
+}
+
+.title {
+  text-transform: capitalize;
+  font-size: 2rem;
+  text-shadow: 2px 1.2px 0.5px #fff;
+  -webkit-animation: zooms 1.75s linear infinite;
+          animation: zooms 1.75s linear infinite;
+  -webkit-animation-duration: alternate;
+          animation-duration: alternate;
+  color: #000;
+  margin-left: 620px;
+  padding: 150px 0 0 0;
+}
+
+@-webkit-keyframes zooms {
+  from {
+    transform: translateX(-10px);
+  }
+  to {
+    transform: translateX(30px);
+  }
+}
+
+@keyframes zooms {
+  from {
+    transform: translateX(-10px);
+  }
+  to {
+    transform: translateX(30px);
+  }
+}/*# sourceMappingURL=style.css.map */
